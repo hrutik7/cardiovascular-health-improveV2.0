@@ -85,7 +85,7 @@ for(;;){
    Serial.println("z :" +  String(z)); 
  delay(200);
 
-    if ( x <= 423 && y<=350 ){
+    if ( x <= 420 && y<=340 ){
     Serial.println("forward step");
      stepcount = stepcount + 1 ;
      delay(100);
@@ -93,7 +93,7 @@ for(;;){
     }
 
     
-    if ( x <= 440 && y>=373){
+    if ( x <= 415 && y>=365){
 
 Serial.println("backward step");
      stepcount = stepcount + 1 ;
